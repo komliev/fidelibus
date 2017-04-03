@@ -1,0 +1,460 @@
+.dropdown-menu>li>a {outline: none;}
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {background-image: none;}
+
+html, body {height: 100%; width: 100%; font-family: 'Fira Sans', Arial, Helvetica, sans-serif; font-size: 16px; line-height: 24px; font-weight: 300; font-style: normal; color: #272727; letter-spacing: 0.25;}
+body {overflow-x: hidden;}
+
+/* --- TYPOGRAPHY --- */
+
+
+
+@media (max-width: 1200px) {}
+@media (max-width: 768px) {}
+
+a {
+    color: #039be5; 
+    text-decoration: underline; 
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+}
+a:focus {color: #039be5;}
+a:hover {color: #01334d;}
+
+
+h1, h2, h3, h4, h5, h6 {
+    color: #01334d;
+    font-family: "Fira Sans", Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    line-height: 1.2em;
+    margin: 0;    
+}
+
+h1 {
+    font-size: 48px;
+}
+h2 {
+    font-size: 42px;
+}
+h3 {
+    font-size: 36px;
+}
+h4 {
+    font-size: 32px;
+}
+h5 {
+    font-size: 24px;
+}
+h6 {
+    font-size: 21px;
+}
+@media (max-width: 1200px) {}
+@media (max-width: 768px) {}
+
+
+.text-white {color: #ffffff !important;}
+.text-light-grey {color: #f6f8f9 !important;}
+.text-grey {color: #b9c7cf !important;}
+.text-blue {color: #01334d !important;}
+
+.text-default {color: #272727 !important;}
+.text-primary {color: #039be5 !important;}
+.text-muted {color: #6a808d !important;}
+
+.text-serif {font-family: "Fira Sans", Arial, Helvetica, serif;}
+.text-uppercase {text-transform: uppercase;}
+.text-notransform {text-transform: none !important;}
+.text-nodecoration {text-decoration: none !important;}
+
+
+.link-minor {
+    border-bottom-style: dashed;
+    border-bottom-width: 1px;
+    font-size: 14px;
+    text-decoration: none !important;
+}
+
+hr {
+    margin: 0;
+    border-top: 5px #039be5 solid;
+}
+
+.blue-bg {
+    background: #039be5;
+    color: #fff;
+}
+
+.blue-bg a, .blue-bg h1, .blue-bg h2, .blue-bg h3, .blue-bg h4, .blue-bg h5, .blue-bg h6 {color: #fff;}
+
+/*.blue-border {
+    padding-left: 40px;
+    border-left: 4px solid #ff0056;
+}
+@media (max-width: 768px) {
+    .blue-border {padding-left: 20px;}
+}*/
+
+.paragraph {
+    padding: 90px 0;
+    text-align: center;
+}
+@media (max-width: 1200px) {
+    .paragraph {padding: 65px 0;}
+}
+@media (max-width: 768px) {
+    .paragraph {padding: 45px 0;}
+}
+
+/*b, strong {font-size: 1.1em;}
+i.fa {font-size: 14px;}
+big i.fa {font-size: 21px; vertical-align: text-bottom;}*/
+
+
+/* --- BUTTONS --- */ 
+
+.btn { 
+    padding: 0 30px;
+    border-radius: 3px;
+    background: #039be5;
+    border: 3px #039be5 solid;
+    color: #fff;
+    display: inline-block;
+    font-family: "Fira Sans", Arial, Helvetica, serif;
+    font-size: 18px;
+    font-weight: 400;
+    height: 50px; 
+    line-height: 44px;
+    letter-spacing: 0.25;
+    vertical-align: top;
+    text-shadow: none;
+    text-decoration: none;
+    text-transform: none;
+    box-shadow: none;
+    text-align: center;
+    position: relative;
+    
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+}
+.btn:hover {
+    background: #fff;
+    color: #039be5;
+}
+
+.btn.btn-gradient {
+    padding: 0;
+    background: linear-gradient(to top, #0a8ed0, #2cb7fc);
+    border: 0;
+    height: 58px; 
+    line-height: 52px;
+}
+
+    .btn.btn-gradient span {
+        margin: 3px;
+        padding: 0 30px;
+        display: block;
+        background: #fff;
+        color: #01334d;
+    }
+
+.btn-lg {
+    padding: 0 80px;
+    border-radius: 30px;
+    height: 60px; 
+    line-height: 60px;
+    font-size: 18px;
+}
+
+.btn-shadow {box-shadow: 0 0 0 6px rgba(1, 40, 80, 0.2);}
+.btn-lg-shadow {box-shadow: 0 0 0 10px rgba(50, 150, 255, 0.1);}
+
+@media (max-width: 1200px) {
+    .btn-lg {
+        padding: 0 70px;
+        border-radius: 22px;
+        height: 45px; 
+        line-height: 45px;
+        font-size: 14px;
+    }    
+}
+@media (max-width: 768px) {
+    .btn-lg {
+        padding: 0 40px;
+        border-radius: 17px;
+        height: 35px; 
+        line-height: 35px;
+        font-size: 11px;
+    }    
+    .btn-lg-shadow {box-shadow: 0 0 0 8px rgba(50, 150, 255, 0.1);}
+}
+
+/*.btn-default {background: #ff0056 !important; color: #ffffff !important;}
+.btn-default:hover {background: #219bff !important; color: #ffffff !important;}*/
+
+.btn-primary {background: #219bff !important; color: #ffffff !important;}
+.btn-primary:hover {background: #ff0056 !important; color: #ffffff !important;}
+
+.btn-info {background: #b2fcff !important; color: #ffffff !important;}
+.btn-info:hover {background: #ffffff !important; color: #b2fcff !important;}
+
+.btn-danger {background: #ff0056 !important; color: #ffffff !important;}
+.btn-danger:hover {background: #219bff !important; color: #ffffff !important;}
+
+.btn-link {background: transparent !important; color: #ff0056 !important;}
+.btn-link:hover {background: transparent !important; color: #219bff !important;}
+
+
+/* --- FORMS --- */ 
+
+label {
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+label.control-label {color: #2b5479;}
+.checkbox label {color: #219bff;}
+
+input[type="text"], input[type="password"], input[type="email"], textarea, .form-control {
+    padding: 0px 20px;
+    background: #eef4f7;
+    border-radius: 0px; 
+    border: 0;
+    color: #000000;
+    font-family: "Montserrat", Arial, sans-serif; 
+    font-size: 16px;
+    font-weight: 400;
+    text-shadow: none;
+    text-decoration: none;
+    text-transform: none;
+    box-shadow: none;
+    vertical-align: top;
+    height: 60px;
+}
+/*input[type="checkbox"] {
+    height: 30px;
+    width: 30px;
+}
+input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focus, textarea:focus, .form-control:focus {outline: none;}
+input[type="text"], input[type="password"], input[type="email"], textarea, select {
+    -webkit-appearance: none;
+}
+
+textarea.form-control {
+    padding: 10px 15px; 
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.4;
+    height: auto;
+}
+
+select.form-control {
+    padding: 0 15px; 
+    border-radius: 3px; 
+    border: 2px #ececec solid;
+    background-color: #fafafa;
+    font-family: "Montserrat", Arial, sans-serif; 
+    font-size: 16px;
+    font-weight: 300;
+    text-shadow: none;
+    text-decoration: none;
+    box-shadow: none;
+    vertical-align: top;
+    height: 40px;
+    color: #4d4c4f;
+}
+
+.checkbox, .form-horizontal .checkbox {
+    margin-bottom: 15px;
+    padding-top: 0;
+    padding-bottom: 0;
+}*/
+
+input::-ms-clear {display: none;}
+
+@media (max-width: 768px) {
+    input[type="text"], input[type="password"], input[type="email"], textarea, .form-control {
+        font-size: 14px;
+        height: 50px;
+    }
+}
+
+/* --- OTHER CLASSES --- */ 
+
+.no-margin {margin: 0;}
+.no-padding {padding: 0;}
+.no-padding-right {padding-right: 0;}
+.no-padding-left {padding-left: 0;}
+.nowrap {white-space: nowrap;}
+.display-inblock {display: inline-block;}
+.display-block {display: block;}
+.pos-relative {position: relative;}
+.full-width {width: 100%;}
+.fixed {position: fixed !important;}
+
+@media (max-width: 767px) {
+    .xs-no-float {
+        float: none !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+    .pull-left-sm {
+        float: left;
+    }
+    .pull-right-sm {
+        float: right;
+    }
+}
+
+.manual-animation {    
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+/* --- BLOCKQUOTES --- */
+
+blockquote {
+    margin: 0;
+    padding: 80px 0;
+    border: 0;
+    background: #219bff;
+    font-family: "Montserrat", Arial, sans-serif;
+    text-align: center;
+}
+
+    blockquote p.lead {
+        color: #ffffff;
+    }
+    blockquote p.quotemark {
+        color: #b2fcff;
+        font-size: 170px;
+        font-weight: 700;
+        opacity: 0.5;
+    }
+    blockquote h6 {
+        margin-bottom: 40px;
+        color: #ffffff;
+    }
+    blockquote small:before {
+        content: '';
+    }
+    blockquote small {
+        margin-top: 40px;
+        display: inline-block;
+        color: #b2fcff;
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 18px;
+    }
+        blockquote small cite {
+            display: block;
+            color: #ffffff;
+            font-style: normal;
+            font-size: 13px;
+            font-weight: 400;
+        }
+        
+@media (max-width: 1200px) {
+    blockquote p.lead {
+        font-size: 14px;
+        line-height: 30px;
+    }
+    blockquote p.quotemark {
+        font-size: 150px;
+    }
+    blockquote h6 {
+        margin-bottom: 50px;
+    }        
+    blockquote small {
+        margin-top: 25px;
+    }    
+}
+@media (max-width: 768px) {
+    blockquote {        
+        line-height: 20px;
+    }
+        blockquote small {
+            margin-top: 40px;
+        }
+}
+
+/* --- Modal --- 
+    
+.modal-content {
+    border-radius: 0;
+    padding: 15px;
+}
+
+    .modal-header, .modal-footer {
+        border: none;
+    }
+    
+    .modal-body textarea {
+        font-size: 16px;
+        height: 100px;
+        text-transform: none;
+    }*/
+        
+/* --- iCheck plugin Square skin, green --- */
+
+.icheckbox,
+.iradio {    
+    display: inline-block;
+    *display: inline;
+    vertical-align: middle;
+    margin: 0 10px 0 0;
+    padding: 0;
+    width: 32px;
+    height: 32px;
+    background: url(../img/icheck.png) no-repeat;
+    border: none;
+    cursor: pointer;
+}
+
+.icheckbox {
+    background-position: 0 0;
+}
+    .icheckbox.hover {
+        background-position: -34px 0;
+    }
+    .icheckbox.checked {
+        background-position: -68px 0;
+    }
+    .icheckbox.disabled {
+        background-position: -102px 0;
+        cursor: default;
+    }
+    .icheckbox.checked.disabled {
+        background-position: -136px 0;
+    }
+
+.iradio {
+    background-position: -170px 0;
+}
+    .iradio.hover {
+        background-position: -204px 0;
+    }
+    .iradio.checked {
+        background-position: -238px 0;
+    }
+    .iradio.disabled {
+        background-position: -272px 0;
+        cursor: default;
+    }
+    .iradio.checked.disabled {
+        background-position: -306px 0;
+    }
+
+/* HiDPI support */
+@media (-o-min-device-pixel-ratio: 5/4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi), (min-resolution: 1.25dppx) {
+    .icheckbox,
+    .iradio {
+        background-image: url(../img/icheck@2x.png);
+        -webkit-background-size: 340px 34px;
+        background-size: 340px 34px;
+    }
+}

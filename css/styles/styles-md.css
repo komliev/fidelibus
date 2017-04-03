@@ -1,0 +1,259 @@
+/* --- MAIN STYLES --- */
+   
+.bg-lg, .bg-md {height: 400px;}
+.bg-sm {height: 270px;}
+
+.blog-block .bg-lg .banner .btn {
+    margin-top: 35px;
+}
+
+.map {
+    margin-bottom: 70px;
+}
+    
+    .map ul li a#map-pin1 {top: 6.5%; left: 46.8%;}
+    .map ul li a#map-pin2 {top: 14.5%; left: 46.85%;}
+    .map ul li a#map-pin3 {top: 12.0%; left: 52.9%;}
+    .map ul li a#map-pin4 {top: 32.5%; left: 67.83%;}
+    .map ul li a#map-pin5 {top: 29.5%; left: 65.2%;}
+    .map ul li a#map-pin6 {top: 22.5%; left: 72.6%;}
+    .map ul li a#map-pin7 {top: 15.5%; left: 71.87%;}
+    .map ul li a#map-pin8 {top: 13.5%; left: 12.2%;}
+    .map ul li a#map-pin9 {top: 24.3%; left: 11.65%;}
+    .map ul li a#map-pin10 {top: 67.8%; left: 83.42%;}
+
+.contacts {
+    height: 400px;
+}
+
+    .contacts .banner {
+        padding-top: 70px;
+    }
+
+        .contacts h2 {
+            margin-bottom: 10px;
+        }
+
+        .contacts a.mail, .contacts a.phone {
+            font-size: 24px;
+            line-height: 36px;
+        }
+
+        .contacts ul {
+            margin: 35px 0 0 0;
+        }
+
+            .contacts ul li {
+                padding: 0 22px;  
+            }
+
+                .contacts ul li a {        
+                    line-height: 50px;
+                }
+
+                    .contacts ul li a i {        
+                        font-size: 50px;
+                    }
+                    .contacts ul li a i.icon-mail2 {
+                        padding: 0 10px 0 0;
+                        font-size: 36px;
+                    }
+
+.description i {
+    margin-top: 0;
+}
+.description i.icon-ux-design, .description i.icon-testing {
+    margin-top: -10px;
+}
+
+.description .pink-circle {
+    margin-bottom: 25px;
+}
+            
+.description p {
+    font-size: 12px;
+}
+.description .paragraph p {
+    font-size: 14px;
+}
+
+/* --- HEADER --- */
+
+#header {
+    padding: 30px 20px 0 20px;
+}
+
+    #header a.logo img {
+        height: 31px;
+        width: 50px;
+    }
+
+    #header a.logo p {
+        padding-left: 15px;
+        font-size: 16px;
+    }
+        
+        #header a.logo p span {
+            font-size: 12px;
+        }
+        
+    #header ul.header-menu {
+        margin-top: 10px;
+    }
+    
+        #header ul.header-menu li {
+            padding: 0 15px;
+        }
+
+            #header ul.header-menu li a {
+                font-size: 11px;
+                line-height: 13px;
+            }
+        
+    #header ul.social li {
+        padding: 0;
+    }
+            
+/* --- FOOTER --- */
+
+#footer {
+    padding: 30px 20px 0 20px;    
+    height: 165px;
+}
+
+    #footer a.phone {
+        float: right;
+    }
+    
+    #footer p.copyright {
+        margin-top: 30px;
+    }
+    
+    #footer ul.social {
+        margin: 18px -10px 0 0;
+        float: right;
+    }
+    
+/* --- INDEX --- */
+
+#index .intro {height: 565px;}
+
+    #index .intro .banner {
+        padding-bottom: 0px;
+    }
+
+#index .index-expertise {
+    padding: 95px 0 70px 0;
+}
+
+    #index .index-expertise .project-area .project-area-link i {
+        margin-bottom: 35px;
+        font-size: 46px;
+    }
+    
+    #index .index-expertise .project-area .project-area-link img {
+        margin-bottom: 35px;
+        height: 55px;
+    }
+    
+        #index .index-expertise .project-area ul li {
+            font-size: 12px;
+            line-height: 20px;
+        }
+            
+    #index .index-expertise .btn.btn-lg {
+        margin-top: 80px;
+    }
+    
+#index blockquote img {
+    margin-top: 30px;
+}    
+    
+/* --- ABOUT --- */
+    
+#about .intro {height: 565px;}
+    
+#about #idea {
+    padding: 150px 0 90px 0;
+}    
+    
+#about #about-5 {
+    margin-top: 10px;
+}
+
+#about #about-7 {
+    margin-top: 30px;
+    padding-bottom: 60px;
+}
+
+#about #about-8 {
+    padding: 60px 0 100px 0;
+}
+
+    #about #about-8 h6 {
+        margin-bottom: 0;
+    }
+                                
+#about .logos {
+    padding-bottom: 60px;
+}
+
+    #about .logos img {
+        margin-top: 50px;
+    }
+
+    
+/* --- BLOG --- */
+    
+
+#blog .intro {height: 565px;}
+    
+#blog .blog-block .bg-lg {
+    padding-top: 40px;
+    height: 550px;
+}
+
+#blog .blog-more {
+    padding: 25px 0 0 0;
+    text-align: center;
+}
+    
+/* --- ARTICLE --- */
+
+#article .intro {height: 565px;}
+    
+#article #article1 {
+    padding: 80px 0 5px 0;
+}
+
+#article #article2 {
+    padding-top: 40px;
+    padding-bottom: 65px;
+}
+
+    #article #article2 h4 {
+        margin-top: 35px;
+    }
+    
+#article .share-article {
+    padding: 80px 0 120px 0;
+    text-align: center;
+}
+    
+/* --- CASE --- */
+
+#case .intro {height: 565px;}
+
+#case .case-branch {height: 690px;}
+
+    #case .case-branch .banner p {        
+        font-size: 16px;
+    }
+
+        #case .case-branch .banner h2 span.text-pink {
+            font-size: 70px;
+        }
+
+        #case .case-branch .banner a.btn {
+            margin-top: 10px;
+        }
