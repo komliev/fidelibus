@@ -1,7 +1,8 @@
 <?php include 'header.php'; ?>
 
-<div class="insurance-types">
-    <hr class="hidden-xs">
+<hr class="wide-grey hidden-xs">
+
+<div id="insurance-types">
     <div class="container">
 
         <div class="row">
@@ -14,21 +15,21 @@
             </div>
 
             <div class="col-xs-12 col-sm-3">
-                <a href="#" class="active">
+                <a href="#">
                     <img src="img/livingroom.png">
                     <span>Страхование <br>имущества</span>
                 </a>
             </div>
 
             <div class="col-xs-12 col-sm-3">
-                <a href="#" class="active">
+                <a href="#">
                     <img src="img/medicine.png">
                     <span>Медицинское <br>страхование</span>
                 </a>
             </div>
 
             <div class="col-xs-12 col-sm-3">
-                <a href="#" class="active">
+                <a href="#">
                     <img src="img/linegraph.png">
                     <span>Страхование <br>ответственности</span>
                 </a>
@@ -39,23 +40,21 @@
     </div>
 </div>
 
-<div class="promo background">
+<div class="promo background" style="background-image: url(img/auto-insurance.jpg);">
     <div class="container">
 
         <div class="row">
 
             <div class="col-xs-6 text-center">
-                <span>2 137 297 грн</span>
-                <i>сумма выплат по автострахованию *</i>
+                <p class="text-blue"><span class="text-lg">2 137 297 грн</span><br><i class="text-sm">сумма выплат по автострахованию *</i></p>                
             </div>
 
             <div class="col-xs-6 text-center">
-                <span>1 347</span>
-                <i>обслужено клиентов *</i>
+                <p class="text-blue"><span class="text-lg">1 347</span><br><i class="text-sm">обслужено клиентов *</i></p>
             </div>
 
             <div class="col-xs-12 text-right">
-                <i>* по данным за 2016 год</i>
+                <p class="text-dark-grey"><i class="text-xs">* по данным за 2016 год</i></p>
             </div>
 
         </div>
@@ -69,21 +68,21 @@
             
             <div class="col-xs-12 col-md-6">
                 
-                <ul class="nav nav-justified">
-                    <li><a href="#">КАСКО</a></li>
-                    <li><a href="#">ОСАГО</a></li>
-                    <li><a href="#">Зеленая карта</a></li>
+                <ul class="row nav nav-justified">
+                    <li class="col-xs-4"><a href="#">КАСКО</a></li>
+                    <li class="col-xs-4"><a href="#" class="active">ОСАГО</a></li>
+                    <li class="col-xs-4"><a href="#">Зеленая карта</a></li>
                 </ul>
                 
                 <p>Жизненный цикл продукции упорядочивает эмпирический медиавес. Емкость рынка трансформирует потребительский рынок, осознав маркетинг как часть производства. В общем, бизнес-стратегия специфицирует тактический показ баннера.</p>
                 
-                <h5>Необходимые документы</h5>
+                <h5 class="text-default">Необходимые документы</h5>
                 
-                <ul>
-                    <li><i class="fa fa-check" aria-hidden="true"></i>Паспорт гражданина Украины (оригинал)</li>
-                    <li><i class="fa fa-check" aria-hidden="true"></i>Идентификационный код (оригинал)</li>
-                    <li><i class="fa fa-check" aria-hidden="true"></i>Тех. паспорт на автомобиль (оригинал)</li>
-                    <li><i class="fa fa-check" aria-hidden="true"></i>Удостоверение водителя (оригинал)</li>
+                <ul class="docs">
+                    <li><i class="fa fa-check" aria-hidden="true"></i>Паспорт гражданина Украины <i>(оригинал)</i></li>
+                    <li><i class="fa fa-check" aria-hidden="true"></i>Идентификационный код <i>(оригинал)</i></li>
+                    <li><i class="fa fa-check" aria-hidden="true"></i>Тех. паспорт на автомобиль <i>(оригинал)</i></li>
+                    <li><i class="fa fa-check" aria-hidden="true"></i>Удостоверение водителя <i>(оригинал)</i></li>
                 </ul>
                     
                 <p>Метод изучения рынка, анализируя результаты рекламной кампании, экономит ролевой принцип восприятия, используя опыт предыдущих кампаний. <br><br>Общество потребления, отбрасывая подробности, охватывает тактический охват аудитории. Концепция развития регулярно притягивает product placement, повышая конкуренцию. Позиционирование на рынке, пренебрегая деталями, повсеместно синхронизирует межличностный продуктовый ассортимент. Не факт, что рекламный макет традиционно транслирует экспериментальный диктат потребителя. Несмотря на сложности, сущность и концепция маркетинговой программы детерминирует стратегический бюджет на размещение.</p>
@@ -133,19 +132,20 @@
     </div>
 </div>
 
-<div class="about background">
+<div id="about" class="background" style="background-image: url(img/about.jpg);">
     <div class="container">
         <div class="row">
             
-            <div class="col-xs-12 col-md-6">
-                <ul>
+            <div class="col-xs-12 col-md-4 col-md-offset-1">
+                <ul class="banner">
                     <li>72 327 921 грн <br><i>общий объем страхования по итогам 2016 года</i></li>
                     <li>6 137 297 грн <br><i>сумма выплат по итогам 2016 года</i></li>
                     <li>3 148 <br><i>активных клиентов</i></li>
                 </ul>
+                <div class="va-middle-trick"></div>
             </div>
             
-            <div class="col-xs-12 col-md-5 col-md-offset-1">
+            <div class="col-xs-12 col-md-5 col-md-offset-2">
                 <h1>О компании</h1>
                 <p>Итак, ясно, что принцип восприятия упорядочивает коллективный conversion rate. Эластичность спроса искажает повседневный показ баннера. <br><br>Примерная структура маркетингового исследования искажает охват аудитории, не считаясь с затратами.</p>
                 <div class="contacts">
@@ -171,12 +171,12 @@
     </div>
 </div>
 
-<div class="partners">
-    <div class="container">
+<div id="partners">
+    <div class="container text-center">
         
         <h4>Наши партнеры</h4>
         
-        <div class="row text-center">
+        <div class="row">
             <div class="col-xs-12 col-sm-4">
                 <img src="img/partner.jpg" class="display-inblock">
             </div>
@@ -231,7 +231,7 @@
 <div class="feedback">
     <div class="container">
         
-        <h2>Оставьте заявку на расчет</h2>
+        <h2 class="text-center">Оставьте заявку на расчет</h2>
         
         <div class="row">            
             <div class="col-xs-6 col-xs-offset-3 col-sm-4 col-sm-offset-4 col-md-2 col-md-offset-5">

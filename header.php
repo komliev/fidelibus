@@ -54,7 +54,7 @@
 </head>
 <body>
     
-    <div id="general-content" style="background: #000;">
+    <div id="general-content">
         
         <div id="header">
             
@@ -65,9 +65,9 @@
             </a>
             
             <ul class="header-menu hidden-xs">
-                <li><a href="#" class="active">Экспертиза</a></li>
-                <li><span>/</span><a href="#">Итоги 2016 года</a></li>
-                <li><span>/</span><a href="#">Партнеры</a></li>
+                <li><a href="#one" class="scroll-to active">Экспертиза</a></li>
+                <li><span>/</span><a href="#about" class="scroll-to">Итоги 2016 года</a></li>
+                <li><span>/</span><a href="#partners" class="scroll-to">Партнеры</a></li>
             </ul>
             
             <a href="#" class="btn btn-gradient"><span>Оформить страховку</span></a>
