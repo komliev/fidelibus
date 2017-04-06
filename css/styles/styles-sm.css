@@ -1,24 +1,8 @@
 /* --- MAIN STYLES --- */
 
-.banner, .blog-block .bg-lg .banner {width: 65%;}
-.blog-block .bg-md .banner {width: 80%;}
-.blog-block .bg-sm .banner {width: 90%;}
-.contacts .banner {width: 90%;}
-    
-.map ul li a#map-pin1 {top: 4%; left: 46.0%;}
-.map ul li a#map-pin2 {top: 12%; left: 46.05%;}
-.map ul li a#map-pin3 {top: 9.5%; left: 52.1%;}
-.map ul li a#map-pin4 {top: 30.0%; left: 67.03%;}
-.map ul li a#map-pin5 {top: 27.5%; left: 64.4%;}
-.map ul li a#map-pin6 {top: 20.5%; left: 71.8%;}
-.map ul li a#map-pin7 {top: 13.5%; left: 71.07%;}
-.map ul li a#map-pin8 {top: 11.5%; left: 11.4%;}
-.map ul li a#map-pin9 {top: 21.8%; left: 10.85%;}
-.map ul li a#map-pin10 {top: 65.3%; left: 82.62%;}
-
 /* --- HEADER --- */
             
-a.menu-icon {
+/*a.menu-icon {
     display: block;
     float: right;
     position: absolute;
@@ -33,11 +17,11 @@ a.menu-icon {
     }
     a.menu-icon i.fa.fa-times {
         font-size: 24px;
-    }
+    }*/
             
 /* --- FOOTER --- */
 
-#footer {
+/*#footer {
     padding: 30px 0 0 0;    
     height: 165px;
 }
@@ -49,16 +33,11 @@ a.menu-icon {
     
     #footer p.copyright {
         margin-top: 30px;
-    }
-    
-    #footer ul.social {
-        margin: 18px -10px 0 0;
-        float: right;
-    }
+    }*/
     
 /* --- SIDEBAR --- */
 
-.sidebar {
+/*.sidebar {
     min-height: 100%;
     height: 100%;
     width: 285px;
@@ -114,8 +93,6 @@ a.menu-icon {
                 }            
                 .sidebar .inner-sidebar ul li a:hover {
                     border-bottom-color: #ff0056;
-                }
+                }*/
     
-/* --- CASE --- */
-
-#case .intro .banner {width: 80%;}
+/* --- INDEX --- */

@@ -13,6 +13,7 @@
 }
 
 .banner {
+    width: 95%;
     display: inline-block;
     vertical-align: middle;
 }
@@ -32,6 +33,12 @@ a.logo {
     a.logo img {
         height: 70px;
     }
+    
+    
+a.phone {
+    color: #01334d;
+    text-decoration: none;
+}
     
 
 /* --- HEADER --- */
@@ -92,10 +99,8 @@ a.logo {
     }
     
         #header .header-feedback a.phone {
-            color: #01334d;
             font-size: 36px;
             font-weight: 400;
-            text-decoration: none;
         }
         
             #header .header-feedback a.phone span.region-code {
@@ -191,31 +196,52 @@ a.logo {
         line-height: 36px;
     }
     
-.auto-insurance ul.docs {
-    margin: 10px 0;
-    padding: 0;
+.auto-insurance {
+    padding: 30px 0 80px;
 }
-
-    .auto-insurance ul.docs li {
-        line-height: 36px;
-    }
     
-        .auto-insurance ul.docs li i.fa {
-            padding: 0 10px;
-            color: #039be5;
-            font-size: 21px;
+    .auto-insurance ul.docs {
+        margin: 10px 0;
+        padding: 0;
+    }
+
+        .auto-insurance ul.docs li {
+            line-height: 36px;
         }
+
+            .auto-insurance ul.docs li i.fa {
+                padding: 0 10px;
+                color: #039be5;
+                font-size: 21px;
+            }
+            
+    .auto-insurance form.calc .form-heading {
+        text-align: center;
+    }
+            
+        .auto-insurance form.calc .form-heading p {
+            padding: 0 15px;
+            display: inline-block;
+            color: #01334d;
+            font-size: 12px;
+            font-weight: 500;
+            text-transform: uppercase;
+        }
+        
+    .auto-insurance form.calc .btn i.fa {
+        padding-left: 15px;
+    }
         
 #about {
     height: 600px;
 }
 #about > .container, #about > .container > .row, #about > .container> .row > div {height: 100%;}  
 
-    #about .banner {    
+    #about .total {    
         padding: 0;
     }
     
-        #about .banner li {
+        #about .total li {
             margin-top: 55px;
             color: #6a808d;
             font-size: 52px;
@@ -224,72 +250,111 @@ a.logo {
             text-align: center;
         }
         
-            #about .banner li i {
+            #about .total li i {
                 font-size: 12px;
                 font-weight: 300;
             }
-
-
-
-
-
-#index .intro {height: 945px;}
-
-    #index .intro .banner {
-        padding-bottom: 70px;
+            
+    #about .contacts {
+        padding-left: 30px;
     }
     
+        #about .contacts li {
+            margin-top: 20px;
+        }
     
-#index .index-expertise {
-    padding: 150px 0 100px 0;
-    background: #ffffff;
-    text-align: center;
+            #about .contacts li i {
+                font-size: 14px;
+            }
+
+            #about .contacts li a {
+                position: relative;
+                font-weight: 400;
+            }
+
+                #about .contacts li a i.fa {
+                    position: absolute;
+                    top: 2px;
+                    left: -20px;
+                    color: #01334d;
+                }
+
+#partners {
+    padding: 50px 0 70px;
 }
 
-    #index .index-expertise .project-area .project-area-link {
-        display: block;
-        text-decoration: none;
+    #partners h4 {
+        margin-bottom: 55px;
     }
     
-        #index .index-expertise .project-area .project-area-link i {
-            margin-top: 15px;
-            margin-bottom: 60px;
-            display: inline-block;
-            color: #466472;
-            font-size: 64px;
-        }
-        
-        #index .index-expertise .project-area .project-area-link img {
-            margin-top: 15px;
-            margin-bottom: 60px;
-            height: 77px;
-            display: inline-block;
-        }
-        
-    #index .index-expertise .project-area ul {
-        margin: 0;
+#q-and-a {
+    padding: 90px 0;
+}
+
+    #q-and-a h5 {
+        margin: 10px 0 35px 20px;
+    }
+
+    #q-and-a .q-and-a-menu {
         padding: 0;
-        list-style: none;
     }
     
-        #index .index-expertise .project-area ul li {
-            margin: 0;
-            padding: 0;
+        #q-and-a .q-and-a-menu li {
+            margin-top: 5px;
         }
         
-            #index .index-expertise .project-area ul li a {
-                color: #7a929e;
-                text-decoration: none;                
+    #q-and-a h3 {
+        margin-top: 0;
+    }
+    
+    #q-and-a .q-and-a-collapse {
+        padding: 0;
+        width: 100%;
+    }
+        
+        #q-and-a .q-and-a-collapse li {
+            width: 100%;
+            border-bottom: 1px dotted #4fbbf0;
+        }
+
+            #q-and-a .q-and-a-collapse li a {
+                display: block;
+                font-size: 24px;
+                line-height: 55px;
+                text-decoration: none;
+            }
+
+                #q-and-a .q-and-a-collapse li a i.fa {
+                    line-height: 55px;
+                    color: #61c6f8;
+                    float: right;
+                }
+                
+            #q-and-a .q-and-a-collapse li p {
+                margin-top: 5px;
+            }
+
+.feedback {
+    padding: 70px 0 100px;
+}
+            
+    .feedback hr {
+        margin: 30px 0 95px;
+    }
+
+    .feedback p {
+        font-size: 18px;
+        line-height: 36px;
+    }
+
+        .feedback p a {
+            font-size: 24px;
+            font-weight: 400;
+        }
+
+            .feedback a.phone .region-code {
+                color: #6a808d;
+                font-size: 27px;
             }
             
-    #index .index-expertise .btn.btn-lg {
-        margin-top: 100px;
-    }
-    
-    
-#index blockquote img {
-    margin-top: 45px;
-    height: 35px;
-    width: 115px;
-    display: inline-block;
-}
+.feedback .btn {margin-top: 35px;}

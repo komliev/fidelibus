@@ -1,7 +1,7 @@
     </div>
        
                         
-    <div class="sidebar manual-animation hidden-md hidden-lg">
+    <!--<div class="sidebar manual-animation hidden-md hidden-lg">
         <div class="inner-sidebar">
             <a href="index.php" class="logo">
                 <img src="img/logo.png">
@@ -14,7 +14,7 @@
                 <li><a href="blog.php">Blog</a></li>
             </ul>
         </div>
-    </div>
+    </div>-->
     
     
     <div id="footer">

@@ -23,19 +23,29 @@ $(document).ready(function() {
             return false;
         });
     
-    /* --- CONTENT --- */
-        
+    /* --- CONTENT --- */        
     
     //ScrollTo
     if ($('.scroll-to').length) {
-        $('.scroll-to').each(function(){
-            $(this).on('click', function (){
+        $('.scroll-to').each(function(i, d){
+            $(d).on('click', function (){
                 event.preventDefault();
                 var offset = 120;
                 var s = $(this).attr('href');
                 $('body,html').animate({scrollTop: $(s).offset().top - offset}, 800);
             });
         });
-    }    
+    }
+    
+    //Collapse
+    if ($('.q-and-a-collapse').length) {
+        $('.q-and-a-collapse li a').each(function(i, d){
+            $(d).on('click', function (){
+                $(d).children('i.fa').toggleClass('fa-angle-down');
+                $(d).children('i.fa').toggleClass('fa-angle-up');
+            });
+                
+        });
+    }
         
 });
