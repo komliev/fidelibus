@@ -1,7 +1,7 @@
 .dropdown-menu>li>a {outline: none;}
 .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {background-image: none;}
 
-html, body {height: 100%; width: 100%; font-family: 'Fira Sans', Arial, Helvetica, sans-serif; font-size: 16px; line-height: 24px; font-weight: 300; font-style: normal; color: #272727; letter-spacing: 0.25;}
+html, body {height: 100%; width: 100%; font-family: 'Fira Sans', Arial, Helvetica, sans-serif; font-size: 16px; line-height: 24px; font-weight: 300; font-style: normal; color: #272727; letter-spacing: 0.25px;}
 body {overflow-x: hidden;}
 
 /* --- TYPOGRAPHY --- */
@@ -65,6 +65,8 @@ h6.solid {
 .text-md {font-size: 36px !important; font-weight: 700 !important;}
 .text-sm {font-size: 14px !important; line-height: 21px;}
 .text-xs {font-size: 12px !important;}
+@media (max-width: 991px) {.text-lg {font-size: 58px !important;}}
+@media (max-width: 767px) {.text-lg {font-size: 42px !important;}}
 
 .text-serif {font-family: "Fira Sans", Arial, Helvetica, serif;}
 .text-uppercase {text-transform: uppercase;}
@@ -73,11 +75,15 @@ h6.solid {
 
 
 .link-minor {
-    border-bottom-style: dashed;
-    border-bottom-width: 1px;
+    border-bottom: dashed 1px #039be5;
     font-size: 14px;
     text-decoration: none !important;
 }
+.link-minor:hover {
+    border-bottom-style: solid;
+    color: #039be5;
+}
+@media (max-width: 991px) {.link-minor {font-size: 13px;}}
 
 hr {
     margin: 0;
@@ -87,15 +93,7 @@ hr.wide-grey {
     margin-top: 90px;
     border-top: 50px #f6f8f9 solid;
 }
-.gradient-left, .gradient-right {
-    height: 1px;
-    width: 90px;
-    display: inline-block;
-    vertical-align: middle;
-}
-.gradient-left {background: linear-gradient(to left, #6a808d, #ffffff);}
-.gradient-right {background: linear-gradient(to left, #ffffff, #6a808d);}
-
+@media (max-width: 991px) {hr.wide-grey {margin-top: 70px;}}
 .blue-bg {
     background: #039be5;
     color: #fff;
@@ -109,7 +107,7 @@ hr.wide-grey {
 }
 @media (max-width: 768px) {
     .blue-border {padding-left: 20px;}
-}*/
+}
 
 .paragraph {
     padding: 90px 0;
@@ -120,7 +118,7 @@ hr.wide-grey {
 }
 @media (max-width: 768px) {
     .paragraph {padding: 45px 0;}
-}
+}*/
 
 /*b, strong {font-size: 1.1em;}
 i.fa {font-size: 14px;}
@@ -172,18 +170,23 @@ big i.fa {font-size: 21px; vertical-align: text-bottom;}*/
     padding: 0;
     background: linear-gradient(to top, #0a8ed0, #2cb7fc);
     border: 0;
-    height: 58px; 
-    line-height: 52px;
+    height: auto; 
+    line-height: 24px;
+    white-space: normal;
 }
 .btn-gradient:hover {background: linear-gradient(to top, #0a8ed0, #2cb7fc);}
 
     .btn-gradient span {
         margin: 3px;
-        padding: 0 30px;
+        padding: 14px 30px;
         display: block;
         background: #fff;
         color: #01334d;
     }
+@media (max-width: 1200px) {.btn-gradient span {padding: 14px 15px;}}
+@media (min-width: 768px) and (max-width: 1200px) {
+    .btn-gradient {max-width: 150px;}
+}   
     
 .btn-fine {
     padding: 0 100px;
@@ -207,9 +210,15 @@ big i.fa {font-size: 21px; vertical-align: text-bottom;}*/
         left: 0;
         z-index: 80;
     }
+.btn-fine-handler {text-align: center;}
 
-@media (max-width: 1200px) {}
-@media (max-width: 768px) {}
+@media (max-width: 767px) {
+    .btn-fine {
+        padding: 0 20px 0 70px;
+        font-size: 21px;
+    }
+    .btn-fine-handler {text-align: right;}
+}
 
 /*.btn-default {background: #ff0056 !important; color: #ffffff !important;}
 .btn-default:hover {background: #219bff !important; color: #ffffff !important;}*/
@@ -223,8 +232,8 @@ big i.fa {font-size: 21px; vertical-align: text-bottom;}*/
 .btn-danger {background: #ff0056 !important; color: #ffffff !important;}
 .btn-danger:hover {background: #219bff !important; color: #ffffff !important;}
 
-.btn-link {background: transparent !important; border-color: transparent !important; color: #ffffff !important;}
-.btn-link:hover {background: transparent !important; border-color: #4fbbf0 !important; color: #ffffff !important; text-decoration: none;}
+.btn-link {background: transparent !important; border-color: transparent !important; color: #ffffff !important; text-decoration: none !important;}
+.btn-link:hover, .btn-link.active {background: transparent !important; border-color: #4fbbf0 !important; color: #ffffff !important;}
 
 
 /* --- FORMS --- */ 
@@ -250,6 +259,7 @@ i.fa.positioned {
 }
 
 input[type="text"], input[type="password"], input[type="email"], textarea, .form-control {
+    margin-bottom: 10px;
     padding: 0px 30px;
     background: transparent;
     border-radius: 3px; 
@@ -301,6 +311,7 @@ form.calc {
                 top: 17px;
                 right: 20px;
             }
+@media (max-width: 767px) {form.calc {padding: 15px 15px 15px;}}
 
 input::-ms-clear {display: none;}
 
@@ -324,6 +335,7 @@ input::-ms-clear {display: none;}
         font-size: 18px;
         font-weight: 500;
         text-decoration: none;
+        white-space: nowrap;
     }
     .nav.nav-justified li a.active, .nav.nav-justified li a:hover {border-bottom-color: #01334d; color: #01334d;}
 

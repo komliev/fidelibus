@@ -25,6 +25,16 @@
 }
 
 
+.gradient-left, .gradient-right {
+    height: 1px;
+    width: 90px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.gradient-left {background: linear-gradient(to left, #6a808d, #ffffff);}
+.gradient-right {background: linear-gradient(to left, #ffffff, #6a808d);}
+
+
 a.logo {
     margin-left: 20px;
     display: block;
@@ -33,6 +43,34 @@ a.logo {
     a.logo img {
         height: 70px;
     }
+    
+    
+ul.header-menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+    ul.header-menu li {
+        margin: 0;
+        padding: 0;
+        display: inline-block;
+    }
+
+        ul.header-menu li span {
+            padding: 0 20px;
+            color: #b9c7cf;
+        }            
+        @media (max-width: 1280px) {ul.header-menu li span {padding: 0 10px;}}
+
+        ul.header-menu li a {
+            padding-bottom: 4px;
+            border-bottom: 2px transparent solid;
+            color: #01334d;
+            font-size: 18px;
+            text-decoration: none;
+        }
+        ul.header-menu li a:hover, ul.header-menu li a.active {border-bottom-color: #039be5;}
     
     
 a.phone {
@@ -46,7 +84,6 @@ a.phone {
 
 #header {
     padding: 20px 40px 25px;
-    height: 120px;
     width: 100%;
     position: fixed;
     top: 0;
@@ -66,39 +103,14 @@ a.phone {
         top: -5px;
         left: 40px;
     }
-    
-    #header ul.header-menu {
-        margin: 0;
-        padding: 0;
-        list-style: none;
-    }
-
-        #header ul.header-menu li {
-            margin: 0;
-            padding: 0;
-            display: inline-block;
-        }
-        
-            #header ul.header-menu li span {
-                padding: 0 20px;
-                color: #b9c7cf;
-            }
-
-            #header ul.header-menu li a {
-                padding-bottom: 4px;
-                border-bottom: 2px transparent solid;
-                color: #01334d;
-                font-size: 18px;
-                text-decoration: none;
-            }
-            #header ul.header-menu li a:hover, #header ul.header-menu li a.active {border-bottom-color: #039be5;}
         
     #header .header-feedback {
-        line-height: 27px;
+        line-height: 28px;
         text-align: right;
     }
     
         #header .header-feedback a.phone {
+            display: block;
             font-size: 36px;
             font-weight: 400;
         }
@@ -116,7 +128,6 @@ a.phone {
 
 #footer {
     padding: 20px 40px;
-    height: 110px;
     background: #f6f8f9;
     
     display: flex;
@@ -125,6 +136,7 @@ a.phone {
 }
     
     #footer p.copyright {
+        margin: 0;
         color: #6a808d;
         font-size: 14px;
     }
@@ -152,6 +164,7 @@ a.phone {
                 color: #039be5;
                 text-decoration: underline;
             }
+            #footer a.developer-link:hover p span {color: #01334d;}
     
     
 /* --- INDEX --- */
@@ -178,7 +191,7 @@ a.phone {
             padding: 18px 0;        
             height: 200px;
         }
-        #insurance-types a.active img {padding: 0;    }
+        #insurance-types a.active img {padding: 0;}
 
         #insurance-types a span {
             margin-top: 15px;
@@ -206,14 +219,18 @@ a.phone {
     }
 
         .auto-insurance ul.docs li {
-            line-height: 36px;
+            margin-left: 10px;
+            padding: 5px 0 5px 35px;
+            background-image: url(../../img/check.png);
+            background-position: 0 50%;
+            background-repeat: no-repeat;
         }
 
-            .auto-insurance ul.docs li i.fa {
+            /*.auto-insurance ul.docs li i.fa {
                 padding: 0 10px;
                 color: #039be5;
                 font-size: 21px;
-            }
+            }*/
             
     .auto-insurance form.calc .form-heading {
         text-align: center;
@@ -233,8 +250,15 @@ a.phone {
     }
         
 #about {
+    background-color: #f3f6fb;
+    background-position: 18% 50%;
+    background-size: auto 100%;
     height: 600px;
 }
+@media (max-width: 1600px) {#about {background-position: 0 50%;}}
+@media (max-width: 1440px) {#about {background-position: -15% 50%;}}
+@media (max-width: 1366px) {#about {background-position: -30% 50%;}}
+@media (max-width: 1280px) {#about {background-position: -55% 50%;}}
 #about > .container, #about > .container > .row, #about > .container> .row > div {height: 100%;}  
 
     #about .total {    
@@ -247,12 +271,12 @@ a.phone {
             font-size: 52px;
             font-weight: 800;
             line-height: 32px;
-            text-align: center;
         }
         
             #about .total li i {
                 font-size: 12px;
                 font-weight: 300;
+                white-space: nowrap;
             }
             
     #about .contacts {
@@ -283,8 +307,9 @@ a.phone {
     padding: 50px 0 70px;
 }
 
-    #partners h4 {
-        margin-bottom: 55px;
+    #partners .partner-logo {
+        margin-top: 55px;
+        display: inline-block;
     }
     
 #q-and-a {
@@ -313,21 +338,26 @@ a.phone {
     }
         
         #q-and-a .q-and-a-collapse li {
+            padding: 12px 0 15px;
             width: 100%;
             border-bottom: 1px dotted #4fbbf0;
         }
 
             #q-and-a .q-and-a-collapse li a {
+                padding-right: 30px;
                 display: block;
+                position: relative;
                 font-size: 24px;
-                line-height: 55px;
+                line-height: 28px;
                 text-decoration: none;
             }
 
                 #q-and-a .q-and-a-collapse li a i.fa {
-                    line-height: 55px;
+                    margin-top: -11px;
+                    position: absolute;
+                    top: 50%;
+                    right: 20px;
                     color: #61c6f8;
-                    float: right;
                 }
                 
             #q-and-a .q-and-a-collapse li p {

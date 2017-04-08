@@ -16,9 +16,10 @@ $(document).ready(function() {
         $('.menu-icon').click(function() {
             
             $('.sidebar').toggleClass('slid');
-            $(this).children('i.fa').toggleClass('fa-bars');
+            /*$(this).children('i.fa').toggleClass('fa-bars');
             $(this).children('i.fa').toggleClass('fa-times');
-            $(this).toggleClass('fixed');
+            $(this).toggleClass('fixed');*/
+            
             
             return false;
         });
@@ -47,5 +48,18 @@ $(document).ready(function() {
                 
         });
     }
+    
+    //PhoneMask
+    if ($('#inputPhone').length)
+        $('#inputPhone').mask('+38 0ZZ ZZZ ZZ ZZ', {
+            translation: {
+                '0': {
+                  pattern: /0/, optional: false
+                },
+                'Z': {
+                  pattern: /[0-9]/, optional: true
+                }
+            }
+        });
         
 });

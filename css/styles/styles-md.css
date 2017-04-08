@@ -1,28 +1,8 @@
 /* --- MAIN STYLES --- */
 
+.gradient-left, .gradient-right {width: 50px;}
+
 /* --- HEADER --- */
-
-/*#header {
-    padding: 30px 20px 0 20px;
-}
-
-    #header a.logo img {
-        height: 31px;
-        width: 50px;
-    }
-        
-    #header ul.header-menu {
-        margin-top: 10px;
-    }
-    
-        #header ul.header-menu li {
-            padding: 0 15px;
-        }
-
-            #header ul.header-menu li a {
-                font-size: 11px;
-                line-height: 13px;
-            }*/
             
 /* --- FOOTER --- */
 
@@ -41,3 +21,10 @@
     
 /* --- INDEX --- */
 
+#about {
+    background-position: -600% 50%;
+}
+
+#q-and-a .q-and-a-collapse li a {
+    font-size: 21px;
+}

@@ -1,20 +1,17 @@
     </div>
        
                         
-    <!--<div class="sidebar manual-animation hidden-md hidden-lg">
-        <div class="inner-sidebar">
-            <a href="index.php" class="logo">
-                <img src="img/logo.png">
-            </a>
-            <ul>
-                <li><a href="case.php">Case Studies</a></li>
-                <li><a href="about.php">About EE</a></li>
-                <li><a href="#">Expertise</a></li>
-                <li><a href="#">Project Enquiry</a></li>
-                <li><a href="blog.php">Blog</a></li>
+    <div class="sidebar manual-animation visible-xs">
+        <div class="inner-sidebar background" style="background-image: url(img/about.jpg);">
+            <ul class="header-menu">
+                <li><a href="#insurance-types" class="scroll-to active">Экспертиза</a></li>
+                <li><span>/</span><a href="#about" class="scroll-to">Итоги 2016 года</a></li>
+                <li><span>/</span><a href="#partners" class="scroll-to">Партнеры</a></li>
             </ul>
+
+            <a href="#" class="btn btn-gradient"><span>Оформить страховку</span></a>
         </div>
-    </div>-->
+    </div>
     
     
     <div id="footer">
@@ -42,7 +39,7 @@
     <script src="js/fancybox/jquery.fancybox-media.js"></script>
     <script src="js/fancybox/jquery.fancybox-buttons.js"></script>
     
-    <script src="js/owlcarousel/owl.carousel.min.js"></script>
+    <script src="js/misc/jquery.mask.min.js"></script>
         
     <script src="js/listeners.js?v=<?= md5(time()) ?>"></script>
 </body>

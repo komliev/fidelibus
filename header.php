@@ -61,25 +61,27 @@
             <hr>
             
             <a href="index.php" class="logo">
-                <img src="img/logo.png">
+                <img src="img/logo-min.png" class="visible-xs visible-sm">
+                <img src="img/logo.png" class="hidden-xs hidden-sm">
             </a>
             
             <ul class="header-menu hidden-xs">
-                <li><a href="#one" class="scroll-to active">Экспертиза</a></li>
+                <li><a href="#insurance-types" class="scroll-to active">Экспертиза</a></li>
                 <li><span>/</span><a href="#about" class="scroll-to">Итоги 2016 года</a></li>
                 <li><span>/</span><a href="#partners" class="scroll-to">Партнеры</a></li>
             </ul>
             
-            <a href="#" class="btn btn-gradient"><span>Оформить страховку</span></a>
+            <a href="#" class="btn btn-gradient hidden-xs"><span>Оформить страховку</span></a>
             
-            <div class="header-feedback">
+            <a href="#" class="hidden-lg hidden-xs"><i class="fa fa-phone text-blue text-md" aria-hidden="true"></i></a>
+            
+            <div class="header-feedback visible-lg visible-xs">
                 <a href="tel:+380577602438" class="phone"><span class="region-code">057</span>760 24 38</a>
-                <br>
                 <a href="#" class="link-minor">Обратный звонок</a>
             </div>
-                        
+                                    
         </div>
         
-        <!--<a href="#" class="menu-icon visible-sm visible-xs"><i class="fa fa-bars" aria-hidden="true"></i></a>-->
+        <a href="#" class="menu-icon visible-xs"><i class="fa fa-bars" aria-hidden="true"></i></a>
         
         

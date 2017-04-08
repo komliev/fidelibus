@@ -7,28 +7,28 @@
 
         <div class="row">
 
-            <div class="col-xs-12 col-sm-3">
+            <div class="col-xs-6 col-sm-3">
                 <a href="#" class="active">
                     <img src="img/car.png">
                     <span>Страхование <br>автомобиля</span>
                 </a>
             </div>
 
-            <div class="col-xs-12 col-sm-3">
+            <div class="col-xs-6 col-sm-3">
                 <a href="#">
                     <img src="img/livingroom.png">
                     <span>Страхование <br>имущества</span>
                 </a>
             </div>
 
-            <div class="col-xs-12 col-sm-3">
+            <div class="col-xs-6 col-sm-3">
                 <a href="#">
                     <img src="img/medicine.png">
                     <span>Медицинское <br>страхование</span>
                 </a>
             </div>
 
-            <div class="col-xs-12 col-sm-3">
+            <div class="col-xs-6 col-sm-3">
                 <a href="#">
                     <img src="img/linegraph.png">
                     <span>Страхование <br>ответственности</span>
@@ -45,11 +45,11 @@
 
         <div class="row">
 
-            <div class="col-xs-6 text-center">
+            <div class="col-xs-12 col-sm-6 text-center">
                 <p class="text-blue"><span class="text-lg">2 137 297 грн</span><br><i class="text-sm">сумма выплат по автострахованию *</i></p>                
             </div>
 
-            <div class="col-xs-6 text-center">
+            <div class="col-xs-12 col-sm-6 text-center">
                 <p class="text-blue"><span class="text-lg">1 347</span><br><i class="text-sm">обслужено клиентов *</i></p>
             </div>
 
@@ -79,10 +79,10 @@
                 <h5 class="text-default">Необходимые документы</h5>
                 
                 <ul class="docs">
-                    <li><i class="fa fa-check" aria-hidden="true"></i>Паспорт гражданина Украины <i>(оригинал)</i></li>
-                    <li><i class="fa fa-check" aria-hidden="true"></i>Идентификационный код <i>(оригинал)</i></li>
-                    <li><i class="fa fa-check" aria-hidden="true"></i>Тех. паспорт на автомобиль <i>(оригинал)</i></li>
-                    <li><i class="fa fa-check" aria-hidden="true"></i>Удостоверение водителя <i>(оригинал)</i></li>
+                    <li>Паспорт гражданина Украины <i>(оригинал)</i></li>
+                    <li>Идентификационный код <i>(оригинал)</i></li>
+                    <li>Тех. паспорт на автомобиль <i>(оригинал)</i></li>
+                    <li>Удостоверение водителя <i>(оригинал)</i></li>
                 </ul>
                     
                 <p>Метод изучения рынка, анализируя результаты рекламной кампании, экономит ролевой принцип восприятия, используя опыт предыдущих кампаний. <br><br>Общество потребления, отбрасывая подробности, охватывает тактический охват аудитории. Концепция развития регулярно притягивает product placement, повышая конкуренцию. Позиционирование на рынке, пренебрегая деталями, повсеместно синхронизирует межличностный продуктовый ассортимент. Не факт, что рекламный макет традиционно транслирует экспериментальный диктат потребителя. Несмотря на сложности, сущность и концепция маркетинговой программы детерминирует стратегический бюджет на размещение.</p>
@@ -147,18 +147,18 @@
     <div class="container">
         <div class="row">
             
-            <div class="col-xs-12 col-md-4 col-md-offset-1">
+            <div class="col-xs-12 col-md-5 col-md-offset-1 col-lg-4 text-center">
                 <div class="banner">
                     <ul class="total">
-                        <li>72 327 921 грн <br><i>общий объем страхования по итогам 2016 года</i></li>
-                        <li>6 137 297 грн <br><i>сумма выплат по итогам 2016 года</i></li>
-                        <li>3 148 <br><i>активных клиентов</i></li>
+                        <li>72 327 921 грн<br><i>общий объем страхования по итогам 2016 года</i></li>
+                        <li>6 137 297 грн<br><i>сумма выплат по итогам 2016 года</i></li>
+                        <li>3 148<br><i>активных клиентов</i></li>
                     </ul>
                 </div>
                 <div class="va-middle-trick"></div>
             </div>
             
-            <div class="col-xs-12 col-md-5 col-md-offset-2">
+            <div class="col-xs-12 col-md-5 col-md-offset-1 col-lg-offset-2">
                 <div class="banner">
                     <h1>О компании</h1>
                     <p>Итак, ясно, что принцип восприятия упорядочивает коллективный conversion rate. Эластичность спроса искажает повседневный показ баннера. <br><br>Примерная структура маркетингового исследования искажает охват аудитории, не считаясь с затратами.</p>
@@ -192,13 +192,13 @@
         
         <div class="row">
             <div class="col-xs-12 col-sm-4">
-                <img src="img/partner.jpg" class="display-inblock">
+                <a href="#" class="partner-logo"><img src="img/partner.jpg"></a>
             </div>
             <div class="col-xs-12 col-sm-4">
-                <img src="img/partner.jpg" class="display-inblock">
+                <a href="#" class="partner-logo"><img src="img/partner.jpg"></a>
             </div>
             <div class="col-xs-12 col-sm-4">
-                <img src="img/partner.jpg" class="display-inblock">
+                <a href="#" class="partner-logo"><img src="img/partner.jpg"></a>
             </div>            
         </div>
         
@@ -212,7 +212,7 @@
             <div class="col-xs-12 col-sm-4">
                 <h5>Вопросы и Ответы</h5>
                 <ul class="q-and-a-menu">
-                    <li><a href="#" class="btn btn-sm btn-link">Общие вопросы</a></li>
+                    <li><a href="#" class="btn btn-sm btn-link active">Общие вопросы</a></li>
                     <li><a href="#" class="btn btn-sm btn-link">Оплата полиса</a></li>
                     <li><a href="#" class="btn btn-sm btn-link">Способы доставки</a></li>
                     <li><a href="#" class="btn btn-sm btn-link">Вопросы сотрудничества</a></li>
@@ -224,23 +224,23 @@
                 
                 <ul class="q-and-a-collapse">
                     <li>
-                        <a data-toggle="collapse" href="#collapse1">Чем отличается КАСКО от ОСАГО? <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                        <a data-toggle="collapse" href="#collapse1">Чем отличается КАСКО от ОСАГО?<i class="fa fa-angle-down" aria-hidden="true"></i></a>
                         <p class="collapse" id="collapse1">Формирование имиджа концентрирует ролевой медиаплан. Направленный маркетинг отражает инструмент маркетинга. Метод изучения рынка, безусловно, тормозит сублимированный ребрендинг. Процесс стратегического планирования, на первый взгляд, стабилизирует диктат потребителя. Практика однозначно показывает, что воздействие на потребителя поддерживает потребительский рынок.</p>
                     </li>
                     <li>
-                        <a data-toggle="collapse" href="#collapse2">Работаете ли Вы с юридическими лицами? <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                        <a data-toggle="collapse" href="#collapse2">Работаете ли Вы с юридическими лицами?<i class="fa fa-angle-down" aria-hidden="true"></i></a>
                         <p class="collapse" id="collapse2">Формирование имиджа концентрирует ролевой медиаплан. Направленный маркетинг отражает инструмент маркетинга. Метод изучения рынка, безусловно, тормозит сублимированный ребрендинг. Процесс стратегического планирования, на первый взгляд, стабилизирует диктат потребителя. Практика однозначно показывает, что воздействие на потребителя поддерживает потребительский рынок.</p>
                     </li>
                     <li>
-                        <a data-toggle="collapse" href="#collapse3">На какой период я могу приобрести страховой полис? <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                        <a data-toggle="collapse" href="#collapse3">На какой период я могу приобрести страховой полис?<i class="fa fa-angle-down" aria-hidden="true"></i></a>
                         <p class="collapse" id="collapse3">Формирование имиджа концентрирует ролевой медиаплан. Направленный маркетинг отражает инструмент маркетинга. Метод изучения рынка, безусловно, тормозит сублимированный ребрендинг. Процесс стратегического планирования, на первый взгляд, стабилизирует диктат потребителя. Практика однозначно показывает, что воздействие на потребителя поддерживает потребительский рынок.</p>
                     </li>
                     <li>
-                        <a data-toggle="collapse" href="#collapse4">Могу ли я заказать полис у другой компании-партнера? <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                        <a data-toggle="collapse" href="#collapse4">Могу ли я заказать полис у другой компании-партнера?<i class="fa fa-angle-down" aria-hidden="true"></i></a>
                         <p class="collapse" id="collapse4">Формирование имиджа концентрирует ролевой медиаплан. Направленный маркетинг отражает инструмент маркетинга. Метод изучения рынка, безусловно, тормозит сублимированный ребрендинг. Процесс стратегического планирования, на первый взгляд, стабилизирует диктат потребителя. Практика однозначно показывает, что воздействие на потребителя поддерживает потребительский рынок.</p>
                     </li>
                     <li>
-                        <a data-toggle="collapse" href="#collapse5">На какой территории действует страховка? <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                        <a data-toggle="collapse" href="#collapse5">На какой территории действует страховка?<i class="fa fa-angle-down" aria-hidden="true"></i></a>
                         <p class="collapse" id="collapse5">Формирование имиджа концентрирует ролевой медиаплан. Направленный маркетинг отражает инструмент маркетинга. Метод изучения рынка, безусловно, тормозит сублимированный ребрендинг. Процесс стратегического планирования, на первый взгляд, стабилизирует диктат потребителя. Практика однозначно показывает, что воздействие на потребителя поддерживает потребительский рынок.</p>
                     </li>
                 </ul>
@@ -262,7 +262,7 @@
         </div>
         
         <div class="row">
-            <div class="col-xs-12 col-sm-6 col-md-4 col-md-offset-1">
+            <div class="col-xs-12 col-sm-4 col-md-offset-1">
                 <p>
                     <i class="text-grey">Позвоните нам:</i><br>
                     <a href="tel:+380577202568" class="phone text-md"><span class="region-code">057</span> 720 25 68</a><br>
@@ -273,7 +273,7 @@
                     <a href="#">mailbox@fidelibus.com.ua</a>
                 </p>                                
             </div>
-            <div class="col-xs-12 col-sm-6 col-md-offset-1">
+            <div class="col-xs-12 col-sm-8 col-md-6 col-md-offset-1">
                 <form>
                     <div class="form-group">
                         <label for="inputName" class="control-label">Ваша фамилия, имя</label>
@@ -281,11 +281,11 @@
                     </div>
                     <div class="form-group">
                         <div class="row">
-                            <div class="col-xs-6">
+                            <div class="col-xs-12 col-sm-6">
                                 <label for="inputPhone" class="control-label">Контактный телефон</label>
                                 <input type="text" class="form-control" id="inputPhone" placeholder="+38 0">                                
                             </div>
-                            <div class="col-xs-6">
+                            <div class="col-xs-12 col-sm-6">
                                 <label for="inputEmail" class="control-label">или e-mail</label>
                                 <input type="text" class="form-control" id="inputEmail" placeholder="mail@gmail.com">
                             </div>
@@ -302,7 +302,7 @@
                         </select>
                         <i class="fa fa-caret-down positioned" aria-hidden="true"></i>
                     </div>
-                    <div class="text-center">
+                    <div class="btn-fine-handler">
                         <button type="submit" class="btn btn-fine"><img src="img/btn-fine.png">Подать заявку!</button>
                     </div>
                 </form>                
