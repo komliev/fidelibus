@@ -3,6 +3,7 @@
                         
     <div class="sidebar manual-animation visible-xs">
         <div class="inner-sidebar background" style="background-image: url(img/about.jpg);">
+            <div class="banner">
             <ul class="header-menu">
                 <li><a href="#insurance-types" class="scroll-to active">Экспертиза</a></li>
                 <li><span>/</span><a href="#about" class="scroll-to">Итоги 2016 года</a></li>
@@ -10,6 +11,8 @@
             </ul>
 
             <a href="#" class="btn btn-gradient"><span>Оформить страховку</span></a>
+            </div>
+            <div class="va-middle-trick"></div>
         </div>
     </div>
     

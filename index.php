@@ -69,9 +69,9 @@
             <div class="col-xs-12 col-md-6">
                 
                 <ul class="row nav nav-justified">
-                    <li class="col-xs-4"><a href="#">КАСКО</a></li>
-                    <li class="col-xs-4"><a href="#" class="active">ОСАГО</a></li>
-                    <li class="col-xs-4"><a href="#">Зеленая карта</a></li>
+                    <li class="col-xs-12 col-sm-4"><a href="#">КАСКО</a></li>
+                    <li class="col-xs-12 col-sm-4"><a href="#" class="active">ОСАГО</a></li>
+                    <li class="col-xs-12 col-sm-4"><a href="#">Зеленая карта</a></li>
                 </ul>
                 
                 <p>Жизненный цикл продукции упорядочивает эмпирический медиавес. Емкость рынка трансформирует потребительский рынок, осознав маркетинг как часть производства. В общем, бизнес-стратегия специфицирует тактический показ баннера.</p>

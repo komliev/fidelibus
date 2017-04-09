@@ -283,6 +283,7 @@ input[type="text"], input[type="password"], input[type="email"], textarea, .form
 
 
 select.form-control {
+    padding: 0px 50px 0 30px;
     color: #b9c7cf;
     -webkit-appearance: none;
 }
@@ -306,6 +307,7 @@ form.calc {
             font-size: 16px;
             height: 50px;
         }        
+        form.calc select.form-control {padding: 0px 45px 0 20px;}
         
             form.calc i.fa.positioned {
                 top: 17px;
@@ -315,17 +317,11 @@ form.calc {
 
 input::-ms-clear {display: none;}
 
-@media (max-width: 768px) {
-    input[type="text"], input[type="password"], input[type="email"], textarea, .form-control {
-        font-size: 14px;
-        height: 50px;
-    }
-}
-
 /* --- NAV --- */
 
 .nav.nav-justified {
     padding-bottom: 30px;
+    width: auto;
 }
 
     .nav.nav-justified li a {

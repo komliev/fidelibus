@@ -73,9 +73,9 @@
             
             <a href="#" class="btn btn-gradient hidden-xs"><span>Оформить страховку</span></a>
             
-            <a href="#" class="hidden-lg hidden-xs"><i class="fa fa-phone text-blue text-md" aria-hidden="true"></i></a>
+            <a href="tel:+380577602438" class="hidden-lg"><i class="fa fa-phone text-blue text-md" aria-hidden="true"></i></a>
             
-            <div class="header-feedback visible-lg visible-xs">
+            <div class="header-feedback visible-lg">
                 <a href="tel:+380577602438" class="phone"><span class="region-code">057</span>760 24 38</a>
                 <a href="#" class="link-minor">Обратный звонок</a>
             </div>
