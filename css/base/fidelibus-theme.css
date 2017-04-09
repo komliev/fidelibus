@@ -41,10 +41,11 @@ h5 {font-size: 24px;}
 h6 {font-size: 21px;}
 h6.solid {
     margin: 0;
+    padding: 18px 15px;
     height: 60px;
     background: #01334d;
     color: #ffffff;
-    line-height: 60px;
+    line-height: 24px;
     text-align: center;
 }
 @media (max-width: 1200px) {}

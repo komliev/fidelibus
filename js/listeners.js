@@ -53,11 +53,8 @@ $(document).ready(function() {
     if ($('#inputPhone').length)
         $('#inputPhone').mask('+38 0ZZ ZZZ ZZ ZZ', {
             translation: {
-                '0': {
-                  pattern: /0/, optional: false
-                },
                 'Z': {
-                  pattern: /[0-9]/, optional: true
+                  pattern: /[0-9]/
                 }
             }
         });

@@ -262,18 +262,7 @@
         </div>
         
         <div class="row">
-            <div class="col-xs-12 col-sm-4 col-md-offset-1">
-                <p>
-                    <i class="text-grey">Позвоните нам:</i><br>
-                    <a href="tel:+380577202568" class="phone text-md"><span class="region-code">057</span> 720 25 68</a><br>
-                    <a href="tel:+380951834637" class="phone text-md"><span class="region-code">095</span> 183 46 37</a><br>
-                    <a href="tel:+380963246724" class="phone text-md"><span class="region-code">096</span> 324 67 24</a><br>
-                    <br>
-                    <i class="text-grey">или напишите e-mail:</i>
-                    <a href="#">mailbox@fidelibus.com.ua</a>
-                </p>                                
-            </div>
-            <div class="col-xs-12 col-sm-8 col-md-6 col-md-offset-1">
+            <div class="col-xs-12 col-sm-8 col-md-6 col-md-offset-1 pull-right">
                 <form>
                     <div class="form-group">
                         <label for="inputName" class="control-label">Ваша фамилия, имя</label>
@@ -302,10 +291,21 @@
                         </select>
                         <i class="fa fa-caret-down positioned" aria-hidden="true"></i>
                     </div>
-                    <div class="btn-fine-handler">
+                    <div class="form-group btn-fine-handler">
                         <button type="submit" class="btn btn-fine"><img src="img/btn-fine.png">Подать заявку!</button>
                     </div>
                 </form>                
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-offset-1 pull-left">
+                <p>
+                    <i class="text-grey">Позвоните нам:</i><br>
+                    <a href="tel:+380577202568" class="phone text-md"><span class="region-code">057</span> 720 25 68</a><br>
+                    <a href="tel:+380951834637" class="phone text-md"><span class="region-code">095</span> 183 46 37</a><br>
+                    <a href="tel:+380963246724" class="phone text-md"><span class="region-code">096</span> 324 67 24</a><br>
+                    <br>
+                    <i class="text-grey">или напишите e-mail:</i>
+                    <a href="#">mailbox@fidelibus.com.ua</a>
+                </p>                                
             </div>
         </div>
         
